@@ -1,0 +1,20 @@
+{
+  "name": "axe-modules",
+  "description": "Demo for creating axe modules",
+  "version": "0.0.1",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alice/axe-modules.git"
+  },
+  "scripts": {
+    "build": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "dependencies": {
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}
