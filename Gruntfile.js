@@ -10,7 +10,7 @@ module.exports = function (grunt) {
 			rules: {
 				src: [
 					'lib/prolog.stub',
-                                        'lib/goog.js',
+					'lib/modules.js',
 					'lib/utils/*.js',
                                         'lib/checks/**/*.js',
                                         'lib/matchers/*.js',
@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 					'lib/epilog.stub'
 				],
 				dest: 'out/modules.js',
-			},
+			}
 		}
 	});
 
